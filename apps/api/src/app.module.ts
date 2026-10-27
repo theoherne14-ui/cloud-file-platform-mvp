@@ -7,6 +7,7 @@ import { FilesModule } from "./files/files.module";
 import { ProvidersModule } from "./providers/providers.module";
 import { SettingsModule } from "./settings/settings.module";
 import { ActivityModule } from "./activity/activity.module";
+import { StorageModule } from "./storage/storage.module";
 import { PrismaService } from "./prisma/prisma.service";
 
 @Module({
@@ -19,6 +20,7 @@ import { PrismaService } from "./prisma/prisma.service";
     ProvidersModule,
     SettingsModule,
     ActivityModule,
+    StorageModule,
   ],
   providers: [PrismaService],
 })
